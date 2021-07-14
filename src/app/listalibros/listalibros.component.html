@@ -1,0 +1,26 @@
+<div class="card-container libros" *ngFor="let item of lista">
+    <div class="card card-libro">
+      <table>
+        <tr>
+          <td>
+            <h1>{{item.nombre}}</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src={{item.imagen}} />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Autor: {{item.autor}}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Páginas: {{item.paginas}}
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
